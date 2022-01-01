@@ -1,8 +1,8 @@
 package com.example.debug;
 
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.Assert.*;
+import org.testng.annotations.Test;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -17,5 +17,9 @@ public class ExampleUnitTest {
     @Test
     public void multiplication_isCorrect() {
         assertEquals(12, 6 * 2);
+    }
+    @Test
+    public void division_isCorrect() {
+        assertEquals(12, 24/2);
     }
 }
