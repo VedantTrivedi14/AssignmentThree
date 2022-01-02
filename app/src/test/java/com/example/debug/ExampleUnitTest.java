@@ -2,7 +2,7 @@ package com.example.debug;
 
 import static org.junit.Assert.assertEquals;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -14,12 +14,19 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
     @Test
     public void multiplication_isCorrect() {
-        assertEquals(12, 6 * 2);
+        assertEquals(12, 4 * 3);
     }
+
     @Test
     public void division_isCorrect() {
-        assertEquals(12, 24/2);
+        assertEquals(4, 8 / 2);
+    }
+
+    @Test
+    public void subtract_isCorrect() {
+        assertEquals(12, 15 - 3);
     }
 }
