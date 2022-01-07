@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
     private EditText etN1, etN2;
     private TextView txtResult;
-    private Button btnAdd;
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -23,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         etN1 = findViewById(R.id.etN1);
         etN2 = findViewById(R.id.etN2);
         txtResult = findViewById(R.id.txtResult);
-        btnAdd = findViewById(R.id.btnAdd);
+        Button btnAdd = findViewById(R.id.btnAdd);
 
         btnAdd.setOnClickListener(v -> {
 
