@@ -10,15 +10,16 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    EditText etN1, etN2;
-    TextView txtResult;
-    Button btnAdd;
+    private EditText etN1, etN2;
+    private TextView txtResult;
+    private Button btnAdd;
 
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         etN1 = findViewById(R.id.etN1);
         etN2 = findViewById(R.id.etN2);
         txtResult = findViewById(R.id.txtResult);
