@@ -26,14 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
         btnAdd.setOnClickListener(v -> {
 
-//               debug using logcate and debuger option
+//               debug using log cate and debugger option
             int num1 = Integer.parseInt(etN1.getText().toString());
-            Log.i("add", "n1 Extecuted");
+            Log.i("add", "n1 Executed");
             int num2 = Integer.parseInt(etN2.getText().toString());
-            Log.i("add", "n2 Extecuted");
+            Log.i("add", "n2 Executed");
             int add = num1 + num2;
             txtResult.setText("" + add);
-            Log.i("add", "add Extecuted");
+            Log.i("add", "add Executed");
         });
     }
 }
